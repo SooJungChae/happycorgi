@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Home from "./page/Home";
 import About from "./page/About";
 import Navigation from "./components/Navigation";
+import './assets/css/style.css';
 
 function App() {
   return (
