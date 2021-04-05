@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="App">
             <header className="App-header">
-                This is Home
+                This is Home ^^
             </header>
         </div>
     );
