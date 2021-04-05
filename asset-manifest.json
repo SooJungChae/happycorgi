@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/happycorgi/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/happycorgi/static/js/main.f5c3b5f2.chunk.js",
-    "main.js.map": "/happycorgi/static/js/main.f5c3b5f2.chunk.js.map",
+    "main.js": "/happycorgi/static/js/main.525e8d18.chunk.js",
+    "main.js.map": "/happycorgi/static/js/main.525e8d18.chunk.js.map",
     "runtime-main.js": "/happycorgi/static/js/runtime-main.e50e772b.js",
     "runtime-main.js.map": "/happycorgi/static/js/runtime-main.e50e772b.js.map",
     "static/js/2.d8280b9e.chunk.js": "/happycorgi/static/js/2.d8280b9e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e50e772b.js",
     "static/js/2.d8280b9e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f5c3b5f2.chunk.js"
+    "static/js/main.525e8d18.chunk.js"
   ]
 }
