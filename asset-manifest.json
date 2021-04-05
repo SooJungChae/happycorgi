@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/happycorgi/static/css/main.d1b05096.chunk.css",
+    "main.js": "/happycorgi/static/js/main.7da5cf3c.chunk.js",
+    "main.js.map": "/happycorgi/static/js/main.7da5cf3c.chunk.js.map",
+    "runtime-main.js": "/happycorgi/static/js/runtime-main.87f2e40c.js",
+    "runtime-main.js.map": "/happycorgi/static/js/runtime-main.87f2e40c.js.map",
+    "static/js/2.83e4b106.chunk.js": "/happycorgi/static/js/2.83e4b106.chunk.js",
+    "static/js/2.83e4b106.chunk.js.map": "/happycorgi/static/js/2.83e4b106.chunk.js.map",
+    "index.html": "/happycorgi/index.html",
+    "precache-manifest.b69496892bb396a3b22372ffda39b628.js": "/happycorgi/precache-manifest.b69496892bb396a3b22372ffda39b628.js",
+    "service-worker.js": "/happycorgi/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/happycorgi/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.83e4b106.chunk.js.LICENSE": "/happycorgi/static/js/2.83e4b106.chunk.js.LICENSE",
+    "static/media/logo.svg": "/happycorgi/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f2e40c.js",
+    "static/js/2.83e4b106.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.7da5cf3c.chunk.js"
+  ]
+}
