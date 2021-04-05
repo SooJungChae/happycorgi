@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/happycorgi/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/happycorgi/static/js/main.525e8d18.chunk.js",
-    "main.js.map": "/happycorgi/static/js/main.525e8d18.chunk.js.map",
+    "main.js": "/happycorgi/static/js/main.8786b054.chunk.js",
+    "main.js.map": "/happycorgi/static/js/main.8786b054.chunk.js.map",
     "runtime-main.js": "/happycorgi/static/js/runtime-main.e50e772b.js",
     "runtime-main.js.map": "/happycorgi/static/js/runtime-main.e50e772b.js.map",
-    "static/js/2.d8280b9e.chunk.js": "/happycorgi/static/js/2.d8280b9e.chunk.js",
-    "static/js/2.d8280b9e.chunk.js.map": "/happycorgi/static/js/2.d8280b9e.chunk.js.map",
+    "static/js/2.9c9077ac.chunk.js": "/happycorgi/static/js/2.9c9077ac.chunk.js",
+    "static/js/2.9c9077ac.chunk.js.map": "/happycorgi/static/js/2.9c9077ac.chunk.js.map",
     "index.html": "/happycorgi/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/happycorgi/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d8280b9e.chunk.js.LICENSE.txt": "/happycorgi/static/js/2.d8280b9e.chunk.js.LICENSE.txt"
+    "static/js/2.9c9077ac.chunk.js.LICENSE.txt": "/happycorgi/static/js/2.9c9077ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e50e772b.js",
-    "static/js/2.d8280b9e.chunk.js",
+    "static/js/2.9c9077ac.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.525e8d18.chunk.js"
+    "static/js/main.8786b054.chunk.js"
   ]
 }
