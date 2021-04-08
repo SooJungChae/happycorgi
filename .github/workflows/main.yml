@@ -37,13 +37,15 @@ jobs:
 #          git config --global user.email "$USER_EMAIL"
 #          git config --global user.name "$USER_NAME"
 
-      - name: Push to server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          key: ${{ secrets.KEY }}
+      - name: make deploy keys
+        env:
+          GH_ACTION_DEPLOY_KEY: ${{ secrets.GH_ACTION_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
 
       # Runs a single command using the runners shell
       - name: Deploy gh-pages
