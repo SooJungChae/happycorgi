@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   pull_request:
-    branches: [ master ]
+    branches: [ gh-pages ]
     types: [ closed ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -25,14 +25,21 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: checkout branch
+        uses: actions/checkout@v2
+
+      - name: git config
+        env:
+          USER_NAME: ${{ github.event.pusher.name }}
+          USER_EMAIL: ${{ github.event.pusher.email }}
+        run: |
+          git config --global user.email "$USER_EMAIL"
+          git config --global user.name "$USER_NAME"
 
       # Runs a single command using the runners shell
       - name: Deploy gh-pages
         run: |
           yarn install
-          git config --global user.email "naan_ace@naver.com"
-          git config --global user.name "ChaeSooJung"
           yarn deploy
 
 #      # Runs a set of commands using the runners shell
