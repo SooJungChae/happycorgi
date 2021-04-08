@@ -43,6 +43,7 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
+          key: ${{ secrets.KEY }}
 
       # Runs a single command using the runners shell
       - name: Deploy gh-pages
