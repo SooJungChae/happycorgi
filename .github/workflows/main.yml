@@ -46,7 +46,10 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-      - name: Test
+      - name: Check that you are connecting to the correct server
+        run: ssh -vT git@github.com
+
+      - name: SSH Test
         run: ssh -T git@github.com
 
       # Runs a single command using the runners shell
