@@ -6,8 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   pull_request:
-    branches: [ gh-pages ]
+    branches: [ master ]
     types: [ closed ]
+  push:
 
   # Allows you to run this workflow manually from the Actions tab
   # workflow_dispatch:
@@ -17,7 +18,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    if: github.event.pull_request.merged == true
+#    if: github.event.pull_request.merged == true
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -28,15 +29,36 @@ jobs:
       - name: checkout branch
         uses: actions/checkout@v2
 
-      - name: git config
+      - name: deploy
         env:
           USER_NAME: ${{ github.event.pusher.name }}
           USER_EMAIL: ${{ github.event.pusher.email }}
+          github_token: ${{ secrets.GH_ACTION_DEPLOY_KEY }}
+          repository: ${{ github.repository }}
         run: |
           git config --global user.email "$USER_EMAIL"
           git config --global user.name "$USER_NAME"
+          git remote set-url origin https://${github_token}@github.com/${repository}
 
-      # Runs a single command using the runners shell
+
+
+
+#      - name: make deploy keys
+#        env:
+#          GH_ACTION_DEPLOY_KEY: ${{ secrets.GH_ACTION_DEPLOY_KEY }}
+#        run: |
+#          mkdir -p ~/.ssh/
+#          echo "$GH_ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa.pub
+#          chmod 600 ~/.ssh/id_rsa.pub
+#          ssh-keyscan github.com >> ~/.ssh/known_hosts
+#
+#      - name: Check that you are connecting to the correct server
+#        run: ls -al ~/.ssh
+#
+#      - name: SSH Test
+#        run: ssh -T git@github.com
+
+#       Runs a single command using the runners shell
       - name: Deploy gh-pages
         run: |
           yarn install
