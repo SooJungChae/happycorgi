@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c67f5880085fd32e8b9bee3587b3bf3",
+    "revision": "bbc51448a86c499c3be3ca27f7a5e4ab",
     "url": "/happycorgi/index.html"
   },
   {
-    "revision": "5fa40964e9378e765758",
+    "revision": "c0a9aa59393d1d221a60",
     "url": "/happycorgi/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/happycorgi/static/js/2.0754e71f.chunk.js.LICENSE"
   },
   {
-    "revision": "5fa40964e9378e765758",
-    "url": "/happycorgi/static/js/main.533cef29.chunk.js"
+    "revision": "c0a9aa59393d1d221a60",
+    "url": "/happycorgi/static/js/main.59d316b9.chunk.js"
   },
   {
     "revision": "f5c2f1c6036a1a0ef226",

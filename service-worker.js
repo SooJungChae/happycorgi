@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/happycorgi/precache-manifest.5d3c93f299e1bd5fea0cd14c3a412053.js"
+  "/happycorgi/precache-manifest.b659736c425b9f81c4bbb9ad2c417ea3.js"
 );
 
 self.addEventListener('message', (event) => {
