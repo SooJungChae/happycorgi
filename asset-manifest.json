@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/happycorgi/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/happycorgi/static/js/main.59d316b9.chunk.js",
+    "main.js.map": "/happycorgi/static/js/main.59d316b9.chunk.js.map",
+    "runtime-main.js": "/happycorgi/static/js/runtime-main.87f2e40c.js",
+    "runtime-main.js.map": "/happycorgi/static/js/runtime-main.87f2e40c.js.map",
+    "static/js/2.0754e71f.chunk.js": "/happycorgi/static/js/2.0754e71f.chunk.js",
+    "static/js/2.0754e71f.chunk.js.map": "/happycorgi/static/js/2.0754e71f.chunk.js.map",
+    "index.html": "/happycorgi/index.html",
+    "precache-manifest.b659736c425b9f81c4bbb9ad2c417ea3.js": "/happycorgi/precache-manifest.b659736c425b9f81c4bbb9ad2c417ea3.js",
+    "service-worker.js": "/happycorgi/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/happycorgi/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.0754e71f.chunk.js.LICENSE": "/happycorgi/static/js/2.0754e71f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f2e40c.js",
+    "static/js/2.0754e71f.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.59d316b9.chunk.js"
+  ]
+}
